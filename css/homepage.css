@@ -1,3 +1,17 @@
-.col-sm-12 {
-  background: rgba(184, 17, 226, 0.82)
+body {
+  padding-top: 5rem;
+}
+.headshot {
+  width: 100%;
+}
+.qualifications {
+
+}
+.qualifications > {
+    width: 30%;
+}
+.qualifications >::after {
+    content: "// ";
+    position: relative;
+    left: -1px;
 }
