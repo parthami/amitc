@@ -1,17 +1,26 @@
 body {
-  padding-top: 5rem;
+  /*padding-top: 5rem;*/
+  font-family: 'Nunito', sans-serif;
 }
 .headshot {
   width: 100%;
 }
 .qualifications {
-
+    font-size: 20px;
 }
-.qualifications > {
-    width: 30%;
+.qualifications p {
+  display: inline;
 }
-.qualifications >::after {
+.qualifications > ::after {
     content: "// ";
+    font-weight: 900;
     position: relative;
     left: -1px;
+    color: lightgrey;
+}
+
+.infoImage {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
 }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Links-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/homepage.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/surgicalProcedures.js"></script>
+    <title>Surgical Procedures</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Dr. Amit Chandratreya</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homepage.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="affiliations.html">Hospital affiliations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conditions.html">Knee Conditions </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="surgicalProcedures.html">Knee Surgical Procedures <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="medico.html">Medico Legal Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="external.html">External Links</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="0">Hyaluronic acid injection</span>
+            </div>
+            <div class="col-md-4">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="1">PRP/BMAC Injections</span>
+            </div>
+            <div class="col-md-4">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="2">ACL reconstructions</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="3">BCL reconstructions</span>
+            </div>
+            <div class="col-md-4">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="4">MPFL/Trochleoplasty</span>
+            </div>
+            <div class="col-md-4">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="5">Partial knee replacement</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="6">Total knee replacement</span>
+            </div>
+            <div class="col-md-6">
+                <img src="images/square.png" alt="square" class="infoImage"/>
+                <span data-toggle="modal" data-target="#exampleModal" data-information="7">Joint Preservation surgery</span>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Information</h4>
+                    </div>
+                    <div class="modal-body">
+                        <span class="modal-info">This is where information about the specific procedure will be</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
