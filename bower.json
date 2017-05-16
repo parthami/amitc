@@ -1,0 +1,27 @@
+{
+  "name": "amitc",
+  "homepage": "https://github.com/parthami/amitc",
+  "authors": [
+    "parthami <pac442@bham.ac.uk>"
+  ],
+  "description": "Website for Mr. Amit Chandratreya",
+  "main": "homepage.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0",
+    "FitText.js": "^1.2.0",
+    "jquery": "^3.2.1",
+    "tether": "^1.4.0"
+  },
+  "resolutions": {
+    "bootstrap": "4.0"
+  }
+}

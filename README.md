@@ -1,2 +1,2 @@
 # amitc
-Website for Dr. Amit Chandratreya
+Website for Amit Chandratreya
